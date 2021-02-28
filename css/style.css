@@ -1,0 +1,68 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}   
+body{
+
+    background-image: url(https://u.kanobu.ru/editor/images/18/6e72c3a8-6a70-438e-8ec8-739d03472d47.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+text-align: center;
+background-color: blue; 
+height: 60px;
+color:white;
+font-family:  sans-serif;
+font-weight: 900;
+margin-bottom:70px;
+}
+
+    footer {
+        background-color: lightblue;
+        bottom: 0;
+        width: 100%;
+    }
+
+.content{
+    background-color: lightblue;
+    width: 80%;
+    margin: 0px auto;
+    padding: 10px;
+    color: white;
+
+}
+.content h1{
+text-align: center;
+color: white;
+
+}
+.row{
+    display: flex;
+    color: white
+}
+.box p{
+
+
+    font-size: 25px;
+}
+.box{
+background-color:darkblue;
+margin: 10px;
+padding: 15px;
+flex-grow: 1;
+border-radius: 10px;
+}
+ img {
+max-height: 100%;
+max-width: 350px;
+border: 10px  darkblue;
+border-radius: 20px;
+box-shadow: 10px 10px black;
+float: left;
+margin-right: 20px; }
+
